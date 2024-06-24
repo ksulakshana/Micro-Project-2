@@ -1,0 +1,244 @@
+ #mainContent{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2em;
+ }
+
+#section1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 1em 2em 1em 4em;
+    height: 23em;
+}
+
+#section1 > div{
+    border-radius: 1em;
+    box-shadow: 3px 5px 27px 0px #00000040 inset;
+    margin: 1em;
+}
+
+#section1 div p{
+    padding:1em;
+}
+#section1 img{
+    height: 100%;
+    width:25em;
+}
+
+#subsection2{
+    color: #6F7373;
+    position: relative;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: left;
+    background: #E5D8FF;
+
+}
+
+#subsection2 p{
+    color: #6F7373;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    text-align: left;
+    height:100%;
+  }
+
+#section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em 2em 3em 3em;
+  }
+  
+  #section2 > div {
+    border-radius: 1em;
+    box-shadow: 3px 5px 27px 0px #00000040 inset;
+    margin: 1em;
+    padding: 1em 1em 1em 1em;
+    color: #FFFFFF;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    text-align: left;
+    width: 12em;
+    
+  }
+#midsubsection1{
+    background: #929DFF;
+    box-shadow: 0px 9px 31px 0px #00000066;
+}
+
+#midsubsection2{
+    background: #734CF2;
+    box-shadow: 0px 9px 31px 0px #00000066;
+
+}
+
+#midsubsection3{
+    background: #D288FF;
+    box-shadow: 0px 9px 31px 0px #00000066;
+
+}
+
+#midsubsection4{
+    background: #000000;
+    box-shadow: 0px 9px 31px 0px #00000066;
+
+}
+
+  #section3{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    /* padding: 1em 2em; */
+    padding: 0;
+    justify-content: start;
+    background-color: #483EFF;
+    width: 63rem;
+    left: 4em;
+    border-radius: 1em;
+}
+
+  #infosubsection1{
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+}
+
+  #info {
+    background-color: #BCE0F6;
+    box-shadow: 0px 6px 35px 0px #00000063;
+    
+  }
+
+  #infosubsection1 > div{
+    position: relative;
+    top: 2em;
+    padding: 1em 3em;
+    margin: 1em 3em;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-align: center;
+    border-radius: 0.4em;
+    box-shadow: 0px 6px 35px 0px #00000063;
+    height: inherit;
+  }
+
+  .notinfo{
+    border: 0.1em solid #FFFFFF;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+
+  }
+
+  #infosubsection2{
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 0.5em;
+    box-shadow: 3px 5px 27px 0px #00000040 inset;
+    margin: 1em;
+    width:50em;
+    height:inherit;
+  }
+
+  #infosubsection2 >div{
+        margin: 1em; 
+  }
+
+  #infohead{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.105em;
+    text-align: left;
+    color: #04285A;
+    position: relative;
+    top: 1em;
+  }
+
+  #details p{
+    color: #04285A;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 32.81px;
+    letter-spacing: 0.105em;
+    text-align: left;
+    position: relative;
+    left: 0.8em;
+  }
+
+  #details p span{
+    color: #143565;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28.13px;
+    letter-spacing: 0.05em;
+    text-align: left;
+  }
+  
+ #nextbutton button{
+    background: #000000;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35.16px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    float: right;
+    border: 3px solid #FFFFFF;
+    border-radius: 0.3em;
+    padding: 0.2em 1em;
+ }
+
+ #contact{
+    top: 33em;
+    right: 6em;
+    position: fixed;
+    width: 6em;
+ }
+
+ @media screen and (max-width: 999px) {
+  .navbar{
+    display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        /* width: 50em; */
+  }
+  #section1{
+    display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 50em;
+  }
+  #section2{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #section2 > div{ 
+    width:auto;
+  }
+  #section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:50em;
+    height:fit-content;
+  }
+  #contact{
+    top: 32em;
+    right: 6em;
+    position: fixed;
+    width: 6em;
+  }
+ 
+}
